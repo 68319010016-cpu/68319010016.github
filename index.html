@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>เว็บไซต์แนะนำตัวเอง | นางสาวนันทิตา เที่ยงทัศน์</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>เว็บไซต์แนะนำตัวเอง</h1>
+    <p>ยินดีต้อนรับสู่พื้นที่เรียนรู้และพัฒนาเว็บไซต์ส่วนตัว</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">เกี่ยวกับฉัน</a></li>
+      <li><a href="#experience">ประสบการณ์</a></li>
+      <li><a href="#skills">ทักษะ</a></li>
+      <li><a href="#contact">ติดต่อ</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle">
+      <i class="fas fa-moon"></i> <span>โหมดมืด</span>
+    </button>
+  </nav>
+
+  <div class="container">
+
+    <section id="about" class="reveal">
+      <h2><i class="fas fa-user"></i> เกี่ยวกับฉัน</h2>
+
+      <div class="profile">
+        <div class="profile-img-container">
+          <img src="img/m.jpg">
+        </div>
+
+        <div>
+          <h3>นางสาวนันทิตา เที่ยงทัศน์</h3>
+          <p>
+            นักศึกษาแผนกวิชาเทคโนโลยีสารสนเทศ <br>
+            ผู้มีความคลั่งไคล้และสนใจเป็นพิเศษในด้าน <strong>Front-End Development</strong>, 
+            ระบบโครงสร้างเครือข่ายคอมพิวเตอร์ (Network) และการออกแบบเว็บไซต์ที่ตอบโจทย์ผู้ใช้งาน
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="reveal">
+      <h2><i class="fas fa-briefcase"></i> ประสบการณ์และผลงาน</h2>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025 - ปัจจุบัน</div>
+          <div class="timeline-content">
+            <h3>พัฒนาโปรเจกต์เว็บแอปพลิเคชันส่วนตัว</h3>
+            <p>ออกแบบและพัฒนาหน้า Front-End เว็บไซต์ด้วย HTML, CSS และ JavaScript เน้นการทำ Responsive Web Design ให้รองรับการทำงานบนมือถือและแท็บเล็ตได้อย่างสมบูรณ์</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>ฝึกฝนและปฏิบัติตามสายงาน Network</h3>
+            <p>ฝึกออกแบบและจำลองระบบเครือข่ายคอมพิวเตอร์ ตั้งค่าอุปกรณ์ Routing & Switching เบื้องต้น รวมถึงศึกษาการบริหารจัดการแบนด์วิดท์ผ่านระบบ MikroTik และ Ubiquiti</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>กิจกรรมและโครงงานในแผนกเทคโนโลยีสารสนเทศ</h3>
+            <p>ร่วมทีมพัฒนาโครงงานนวัตกรรมระบบเซิร์ฟเวอร์เบื้องต้นบนสภาพแวดล้อม Windows Server และ Linux ภายในสถานศึกษา</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <h2><i class="fas fa-code"></i> ทักษะความสามารถ</h2>
+
+      <ul class="skills-grid">
+        <li><i class="fab fa-html5" style="color: #c36de6;"></i> HTML / CSS / JavaScript</li>
+        <li><i class="fas fa-laptop-code" style="color: #29b6f6;"></i> Responsive Web Design</li>
+        <li><i class="fas fa-server" style="color: #78909c;"></i> Computer Network</li>
+        <li><i class="fas fa-network-wired" style="color: #00e676;"></i> MikroTik & Ubiquiti</li>
+        <li><i class="fab fa-linux" style="color: #fbc02d;"></i> Windows Server & Linux</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2><i class="fas fa-envelope"></i> ช่องทางติดต่อ</h2>
+
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> <strong>Email :</strong> example@email.com</p>
+        <p><i class="fab fa-facebook"></i> <strong>Facebook :</strong> Your Facebook</p>
+        <p><i class="fas fa-phone"></i> <strong>โทรศัพท์ :</strong> 08x-xxx-xxxx</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 เว็บไซต์แนะนำตัวเอง | พัฒนาด้วย ❤️ โดย นันทิตา เที่ยงทัศน์</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
